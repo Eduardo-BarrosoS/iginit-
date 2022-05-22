@@ -1,14 +1,21 @@
 {
-  "name": "github-Explorer",
+  "name": "github-explorer",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Eduardo <barrosoeduardo64@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.17.12",
     "babel-loader": "^8.2.5",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
